@@ -32,5 +32,6 @@ dependencies {
     compile('com.h2database:h2') // 인메모리 관계형 데이터베이스(메모리에서 실행, 재시작마다 초기화)
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client') // 소셜 기능 구현시 필요한 의존성
+    compile('org.springframework.session:spring-session-jdbc')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
